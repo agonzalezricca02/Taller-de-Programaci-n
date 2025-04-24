@@ -1,0 +1,11 @@
+.fieldset-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+#div-empresa {
+    grid-column: 1;
+}
+#div-postulante {
+    grid-column: 2;
+}

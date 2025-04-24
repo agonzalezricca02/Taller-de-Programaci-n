@@ -1,0 +1,23 @@
+/* TAGS */
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+/* TAGS */
+.form-oferta {
+    margin-top: 20px;
+}
+.combo-box-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.combo-box-container label{
+    text-align: center;
+    width: 100%;
+}
+.combo-box-container select{
+    width: 100%;
+    margin-bottom: 0;
+}

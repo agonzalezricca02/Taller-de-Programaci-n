@@ -1,0 +1,125 @@
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+main{
+    height: fit-content;
+}
+#btn-anterior, #btn-siguiente, #postEmergenteBoton, #miPostEmergenteBoton {
+    margin-left: 5px;
+    grid-column: 3;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #4CAF50;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+#btn-anterior {
+    /* flotar a la izquierda*/
+    float: left;
+    margin-left: 5px;
+}
+#btn-siguiente {
+    /* flotar a la derecha*/
+    float: right;
+    margin-right: 5px;
+}
+.postulantes-li{
+    margin-left: 10px;
+}
+.postulante-li {
+    transition: transform 0.3s;
+
+}
+.postulante-li:hover {
+    transform: scale(1.2);
+    transform-origin: top;
+}
+.postulante-img {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    place-items: center;
+    position: center;
+}
+
+.postulantes-list ul{
+    display: flex;
+    flex-direction: column; /* Para que los elementos se apilen verticalmente */
+    align-items: center; /* Para centrar horizontalmente */
+    justify-content: center; /* Para centrar verticalmente */
+    text-align: center;
+    margin: 0;
+} 
+
+
+.imagen-oferta {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    place-items: center;
+}
+
+/* Postularse */
+.ventanaEmergente {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ventanaEmergente .form {
+    margin: 100px auto;
+    text-align: center;
+}
+.ventanaEmergente .buttonsInline {
+    display: inline-block;
+    width: 49%;
+}
+.ventanaEmergente h5 {
+    text-align: left;
+    margin-bottom: 0px;
+}
+.ventanaEmergente p {
+    text-align: left;
+    margin: 5px;
+}
+.ventanaEmergente .usuarioPostulado {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 5px auto;
+}
+.ventanaEmergente .usuarioPostulado img{
+    grid-column: 1;
+    width: 70px;
+    height: 70px;
+}
+.ventanaEmergente .usuarioPostulado p{
+    grid-column: 2;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ver-mas-tdpp {
+    cursor: pointer;
+    color: blue;
+}
+.ListaKeywords {
+	text-align: left !important;
+	align-items: left !important;
+}
+
+.tipoli{
+	cursor: default !important;
+}
+/* /Postularse */

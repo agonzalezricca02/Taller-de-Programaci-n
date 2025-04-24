@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+li {
+    cursor: pointer;
+}
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    outline: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form textarea {
+    outline: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background-color: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+body {
+    background: #76b852;
+    background: rgb(141, 194, 111);
+    background: linear-gradient(90deg, rgba(141, 194, 111, 1) 0%, rgba(118, 184, 82, 1) 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fieldset-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+#div-empresa {
+    grid-column: 1;
+    display: block;
+}
+#div-postulante {
+    grid-column: 2;
+}
+fieldset {
+    margin-bottom: 15px;
+}
+header {
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+.common-white-component {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+.navbar-container {
+    grid-column: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    flex: 1;
+    text-align-last: center;
+}
+#logo h1 {
+    font-family: 'Bitter', serif;
+}
+.search-container {
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: flex;
+    padding: 0;
+    place-content: center;
+    text-align: -webkit-center;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+    text-align: -webkit-center;
+}
+a {
+    text-decoration: none
+}
+#search-input {
+    grid-column: 1 / 3;
+    outline: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#search-button {
+    margin-left: 5px;
+    grid-column: 3;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #4CAF50;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.lista-horizontal {
+    justify-content: space-around;
+    text-align: center; 
+    margin: 0;
+}
+.lista-horizontal li {
+    flex: 1;
+}
+.keyword-aside {
+    grid-column: 1;
+    height: fit-content;
+}
+.principal-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.keyword-aside li{
+    margin: 30px 0;
+}
+main {
+    margin: 0 0 0 20px;
+    grid-column: 2 / 5;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+.oferta-laboral-container {
+    background-color: #f2f2f2;
+    margin: 15px 10px;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    height: fit-content;
+    transition: transform 0.5s;
+}
+.oferta-laboral-container:hover {
+    transform: scale(1.01);
+    transform-origin: top;
+}
+.oferta-laboral-img {
+    margin: 5px;
+    border-radius: 10px;
+}
+.oferta-laboral-img {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    place-items: center;
+}
+.oferta-laboral-info-container  {
+    margin: 0 10px;
+}
+.keyword-li {
+    transition: transform 0.3s;
+}
+.keyword-li:hover {
+    transform: scale(1.2);
+    transform-origin: top;
+}
+

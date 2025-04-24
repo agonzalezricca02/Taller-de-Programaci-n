@@ -1,0 +1,29 @@
+/* Class */
+.principal-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.keyword-aside {
+    grid-column: 1;
+    height: fit-content;
+}
+.keyword-aside li{
+    margin: 30px 0;
+}
+.aside-li {
+    transition: transform 0.3s;
+}
+.keyword-list{
+    text-align: center
+}
+.keyword-li:hover {
+    transform: scale(1.2);
+    transform-origin: top;
+}
+.principal-element-container {
+    margin: 20px;
+}
+/* Class */
+/* Id */
+/* Id */

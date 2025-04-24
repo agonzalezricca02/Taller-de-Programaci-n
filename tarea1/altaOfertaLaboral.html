@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo.uy</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <title>Trabajo.uy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet"> <!--mejora la palabra trabajo.uy-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-container common-white-component">
+        <div id="logo">
+            <h1>Trabajo.uy</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar..." style="width: -webkit-fill-available;">
+            <button id="search-button">Buscar</button>
+        </div>
+        <nav>
+            <ul class="lista-horizontal">
+            <li style="margin-left: 15px;"><a href="home.html">cerrar sesión</a></li>
+            <li style="margin-right: 15px;"><a class="algo" href="login.html">EMPRESA</a></li> <!--SERIA EL LOGO DE LA EMPRESA Y 
+            CAPAZ EL NOMBRE. EN HREF QUE SEA EL PERFIL DE LA EMPRESA-->
+         </ul>
+         </nav>
+        </div>    
+        
+
+        
+        
+    </header>
+   <!-- <div class="login-page">
+        
+            <form class="register-form">
+                
+            </form>
+        
+    </div>-->
+    <div class="form">
+            <label for="opciones">Tipo de Publicacion:</label>
+        <select id="opciones" name="opciones">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+            <option value="opcion4">Opción 4</option>
+        </select>
+
+
+
+        <input type="text" placeholder="nombre" required/>
+        <input type="text" placeholder="descripcion" required/>
+        <input type="text" placeholder="horario" required/>
+        <input type="text" placeholder="remuneracion" required/>
+        <input type="text" placeholder="departamento" required/>
+        <input type="text" placeholder="ciudad" required/>
+        <input type="text" placeholder="imagen (opcional)" required/>
+        
+        <label for="opciones1">Keywords: </label>
+        <select id="opciones1" name="opciones1">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+            <option value="opcion4">Opción 4</option>
+        </select>
+
+        <fieldset>
+            <legend>Forma de compra</legend>
+            <div class="fieldset-container">
+                <div id="div-empresa">
+                    <input type="radio" id="paquete" name="tipo" value="paquete" style="margin: 0 15px 0 0;" required/>
+                    <label for="postulante">Paquete</label>
+                </div> <!--HAY QUE HACER PARA QUE ELIJA SOLO UNAAA-->
+                <div id="div-postulante">
+                    <input type="radio" id="postulante" name="tipoUsuario" value="Postulante"   style="margin: 0 15px 0 0;"/>
+                    <label for="postulante">General</label>
+                </div>
+            </div>
+        </fieldset>
+        
+        <button>Ingresar Oferta</button>
+    </div>    
+</body>
+</html>
